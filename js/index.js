@@ -21,7 +21,7 @@ let updateTimer = setInterval(function () {
   seconds.innerHTML = secondsDif;
   if (difference < 0) {
     clearInterval(updateTimer);
-    timer.innerHTML = "Наступило";
+    timer.innerHTML = "Время акции вышло";
   }
 }, 1000);
 
